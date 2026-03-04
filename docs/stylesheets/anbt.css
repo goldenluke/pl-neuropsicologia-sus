@@ -1,0 +1,18 @@
+body{
+font-family:"Times New Roman", serif;
+line-height:1.8;
+}
+
+.md-typeset p{
+text-align:justify;
+text-indent:2em;
+}
+
+.md-typeset h1{
+text-align:center;
+margin-top:40px;
+}
+
+.md-typeset h2{
+margin-top:30px;
+}
