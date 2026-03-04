@@ -1,43 +1,10 @@
-# Fundamentação Teórica
+# Fundamentação Teórica Anexa
 
-## A LINDB e o consequencialismo no direito público
+## 1. A LINDB e a virada consequencialista
+As alterações introduzidas na LINDB pela Lei nº 13.655/2018 representam marco normativo relevante na superação de uma concepção meramente formalista das decisões estatais. Os arts. 20 a 22 impõem que atos administrativos, decisões judiciais e políticas públicas considerem explicitamente as consequências práticas de sua adoção.
 
-As alterações introduzidas na Lei de Introdução às Normas do
-Direito Brasileiro pela Lei nº 13.655/2018 impõem que decisões
-administrativas e legislativas considerem explicitamente suas
-consequências práticas.
+## 2. Validade, Justiça e Adequação: Gustav Radbruch
+A teoria tridimensional do direito estabelece que a validade jurídica resulta do equilíbrio entre: **segurança jurídica**, **justiça material** e **adequação social**. A situação atual da avaliação neuropsicológica no SUS evidencia um desequilíbrio estrutural que sacrifica a justiça do caso concreto.
 
-No campo da saúde pública, essa orientação exige que omissões
-normativas que produzam efeitos negativos sobre direitos
-fundamentais sejam avaliadas criticamente.
-
-## Teoria de Gustav Radbruch
-
-A teoria tridimensional do direito estabelece que a validade
-jurídica depende do equilíbrio entre:
-
-- segurança jurídica
-- justiça material
-- adequação social
-
-A ausência de oferta regular da avaliação neuropsicológica
-no SUS evidencia desequilíbrio entre essas dimensões.
-
-## Normativismo e hierarquia constitucional
-
-Mesmo sob uma perspectiva estritamente normativista,
-inspirada na obra de Hans Kelsen, a omissão administrativa
-não pode prevalecer sobre a Constituição Federal.
-
-O direito à saúde possui aplicação imediata e não pode ser
-esvaziado por ausência de regulamentação infralegal.
-
-## Constitucionalização simbólica
-
-A teoria da constitucionalização simbólica de Marcelo Neves
-explica situações em que direitos são formalmente reconhecidos,
-mas carecem de mecanismos institucionais que garantam sua
-efetividade prática.
-
-A ausência de acesso à avaliação neuropsicológica constitui
-exemplo desse fenômeno.
+## 3. Constitucionalização Simbólica: Marcelo Neves
+A reiterada negativa de acesso configura típico caso de inefetividade estrutural do direito à saúde. O direito é formalmente reconhecido, mas carece dos meios institucionais necessários à sua fruição.

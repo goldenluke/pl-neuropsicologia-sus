@@ -1,15 +1,2 @@
-# Artigo 5º
-
-Texto do artigo 5 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 5º — Dificuldades Reais do Gestor
+A implementação observará os arts. 20 a 22 da LINDB, considerando as dificuldades reais do gestor sem, contudo, esvaziar o núcleo essencial do direito à saúde.

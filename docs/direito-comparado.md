@@ -1,23 +1,10 @@
 # Direito Comparado
 
-A experiência internacional demonstra que a avaliação
-neuropsicológica é reconhecida como ferramenta diagnóstica
-importante em diversos sistemas públicos de saúde.
+## Reino Unido – NHS
+O NHS incorpora a neuropsicologia clínica como parte integrante dos serviços especializados. Avaliações são realizadas em hospitais públicos vinculadas a serviços de neurologia e reabilitação.
 
-## Reino Unido
+## Canadá – Sistemas Provinciais
+O Estado reconhece a avaliação neuropsicológica como procedimento necessário, sobretudo quando integrada a serviços públicos de diagnóstico e reabilitação.
 
-O National Health Service (NHS) oferece avaliação
-neuropsicológica em hospitais públicos e centros
-de neurociência.
-
-## Canadá
-
-Nos sistemas provinciais de saúde, avaliações
-neuropsicológicas são realizadas em hospitais
-universitários e centros de reabilitação.
-
-## Austrália
-
-Programas públicos vinculados ao Medicare subsidiam
-serviços especializados de avaliação cognitiva,
-especialmente no contexto da saúde mental.
+## Austrália – Medicare
+O "Better Access Scheme" permite o custeio público de serviços psicológicos especializados mediante encaminhamento clínico.
