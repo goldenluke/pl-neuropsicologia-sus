@@ -16,6 +16,10 @@ theme:
     - search.suggest
     - search.highlight
 
+
+extra_css:
+  - stylesheets/abnt.css
+
 nav:
   - Início: index.md
   - Exposição de Motivos: docs/exposicao-motivos.md

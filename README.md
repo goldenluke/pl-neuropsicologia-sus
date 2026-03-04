@@ -1,27 +1,33 @@
-# Lei de Avaliação Neuropsicológica no SUS
+# 🏛️ Lei de Garantia de Acesso à Avaliação Neuropsicológica no SUS
 
-Projeto legislativo colaborativo para garantir o acesso à avaliação neuropsicológica no Sistema Único de Saúde.
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)]()
+[![Licença](https://img.shields.io/badge/licença-MIT-green)]()
+[![Contribuições](https://img.shields.io/badge/contribuições-bem--vindas-orange)]()
 
-## Objetivo
+---
 
-Construir de forma aberta e colaborativa uma proposta legislativa que assegure o acesso à avaliação neuropsicológica quando clinicamente indicada.
+## 📜 Sobre o Projeto
 
-## Estrutura do Projeto
+Este repositório contém uma **proposta legislativa colaborativa** que busca assegurar o **acesso à avaliação neuropsicológica no Sistema Único de Saúde (SUS)** quando clinicamente indicada.
 
-docs/
-- exposição de motivos
-- fundamentação teórica
-- direito comparado
+A iniciativa pretende contribuir para a **redução de lacunas normativas** na política pública de saúde, fortalecendo o princípio da **integralidade da assistência** previsto na Constituição Federal.
 
-projeto-lei/
-- artigos da lei
+O projeto foi estruturado como uma **wiki legislativa aberta**, permitindo que pesquisadores, profissionais de saúde, juristas e cidadãos possam:
 
-discussao/
-- propostas de emenda
-- debates técnicos
+- acompanhar a evolução da proposta
+- sugerir melhorias
+- propor emendas
+- contribuir com evidências científicas
 
-## Como contribuir
+---
 
-1. Abra uma issue
-2. Proponha alteração no artigo
-3. Submeta um pull request
+## 🎯 Objetivos
+
+- Garantir **acesso equitativo à avaliação neuropsicológica no SUS**
+- Reduzir **atrasos diagnósticos e intervenções inadequadas**
+- Diminuir a **judicialização fragmentada em saúde**
+- Promover **transparência e participação pública no processo legislativo**
+
+---
+
+## 📚 Estrutura do Repositório

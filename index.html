@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projeto de Lei — Avaliação Neuropsicológica no SUS</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<style>
+
+body{
+font-family:"Times New Roman",serif;
+line-height:1.8;
+}
+
+.abnt p{
+text-align:justify;
+text-indent:2em;
+margin-top:12px;
+}
+
+.abnt h1{
+text-align:center;
+margin-top:40px;
+font-size:28px;
+font-weight:bold;
+}
+
+.abnt h2{
+margin-top:30px;
+font-size:20px;
+font-weight:bold;
+}
+
+.abnt h3{
+margin-top:20px;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body class="bg-gray-100">
+
+<div class="max-w-4xl mx-auto bg-white shadow-lg p-12 mt-10 mb-20 abnt">
+
+<div class="flex justify-between mb-10">
+
+<div class="text-sm text-gray-500">
+Projeto legislativo colaborativo
+</div>
+
+<div class="space-x-3">
+
+<button onclick="window.print()" class="bg-gray-800 text-white px-3 py-1 rounded">
+Imprimir / PDF
+</button>
+
+<a href="https://github.com/goldenluke/pl-neuropsicologia-sus"
+class="bg-gray-200 px-3 py-1 rounded">
+GitHub
+</a>
+
+</div>
+
+</div>
+
+<h1>PROJETO DE LEI</h1>
+
+<h1 class="text-xl mt-4">
+Garantia de Acesso à Avaliação Neuropsicológica no Sistema Único de Saúde
+</h1>
+
+<p class="text-center mt-6 text-gray-600">
+Versão consolidada do projeto legislativo colaborativo.
+</p>
+
+<hr class="my-10">
+
+<h2>Sumário</h2>
+
+<div id="toc" class="text-sm mb-10"></div>
+
+<hr class="my-10">
+
+<div id="conteudo"></div>
+
+</div>
+
+<script>
+
+const baseRepo =
+"https://raw.githubusercontent.com/goldenluke/pl-neuropsicologia-sus/main/"
+
+const arquivos = [
+
+"docs/exposicao-motivos.md",
+"docs/fundamentacao-teorica.md",
+"docs/direito-comparado.md",
+
+"projeto-lei/artigo-1.md",
+"projeto-lei/artigo-2.md",
+"projeto-lei/artigo-3.md",
+"projeto-lei/artigo-4.md",
+"projeto-lei/artigo-5.md",
+"projeto-lei/artigo-6.md",
+"projeto-lei/artigo-7.md",
+"projeto-lei/artigo-8.md",
+"projeto-lei/artigo-9.md",
+"projeto-lei/artigo-10.md"
+
+]
+
+async function carregar(){
+
+let html=""
+let toc=""
+
+for(let file of arquivos){
+
+let resp = await fetch(baseRepo + file)
+
+let md = await resp.text()
+
+let convertido = marked.parse(md)
+
+let id = file.replace(/[\/\.]/g,"")
+
+toc += `<div><a href="#${id}" class="text-blue-600 underline">${file}</a></div>`
+
+html += `
+
+<section id="${id}" class="mb-16">
+
+<div class="text-right mb-2 text-xs">
+
+<a href="https://github.com/goldenluke/pl-neuropsicologia-sus/edit/main/${file}"
+class="text-blue-500 underline">
+Editar no GitHub
+</a>
+
+</div>
+
+${convertido}
+
+</section>
+
+`
+
+}
+
+document.getElementById("conteudo").innerHTML = html
+
+document.getElementById("toc").innerHTML = toc
+
+}
+
+carregar()
+
+</script>
+
+</body>
+
+</html>
