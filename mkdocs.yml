@@ -2,11 +2,17 @@ site_name: Lei de Avaliação Neuropsicológica no SUS
 site_description: Projeto legislativo colaborativo
 site_author: Comunidade
 
+repo_url: https://github.com/goldenluke/pl-neuropsicologia-sus
+repo_name: Editar no GitHub
+edit_uri: edit/main/
+
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.sections
+    - content.action.edit
+    - content.action.view
     - search.suggest
     - search.highlight
 
