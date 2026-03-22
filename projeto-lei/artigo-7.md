@@ -1,15 +1,2 @@
-# Artigo 7º
-
-Texto do artigo 7 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Capítulo VII - Cláusula de Interpretação Conforme
+**Art. 7º** A aplicação e a interpretação desta Lei deverão observar a Constituição Federal, a legislação do Sistema Único de Saúde e os arts. 20 a 22 da Lei de Introdução às Normas do Direito Brasileiro, vedadas interpretações que imponham obrigações automáticas, absolutas ou desproporcionais, incompatíveis com a organização e o funcionamento do SUS.

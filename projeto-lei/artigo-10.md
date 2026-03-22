@@ -1,2 +1,2 @@
-# Artigo 10 — Vigência
-Esta Lei entra em vigor na data de sua publicação.
+# Capítulo VIII - Disposições Finais (Art. 10)
+**Art. 10.** Esta Lei entra em vigor na data de sua publicação.

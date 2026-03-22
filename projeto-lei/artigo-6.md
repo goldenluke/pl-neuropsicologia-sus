@@ -1,15 +1,8 @@
-# Artigo 6º
+# Capítulo VI - Fiscalização e Medidas Corretivas
+**Art. 6º** A omissão injustificada na implementação do disposto nesta Lei autoriza a adoção das medidas administrativas, extrajudiciais e judiciais cabíveis, inclusive:
 
-Texto do artigo 6 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
+I – a instauração de procedimentos administrativos de apuração;
+II – a celebração de Termo de Ajustamento de Conduta;
+III – o ajuizamento de ação civil pública ou outras medidas coletivas cabíveis.
 
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+*   **Parágrafo único.** As medidas previstas neste artigo deverão observar o princípio da proporcionalidade e priorizar soluções estruturais e coletivas.
