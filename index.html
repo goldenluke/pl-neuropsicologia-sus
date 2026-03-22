@@ -1,170 +1,238 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Legislativa — Avaliação Neuropsicológica no SUS</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-<title>Projeto de Lei — Avaliação Neuropsicológica no SUS</title>
+    <!-- Tailwind & Marked -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        legal: ['Lora', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
 
-<style>
+    <style>
+        /* Estilização para o conteúdo gerado pelo Markdown */
+        #conteudo-renderizado {
+            font-family: 'Lora', serif;
+            line-height: 1.8;
+            color: #1a202c;
+        }
+        #conteudo-renderizado h1 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 2.25rem;
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            color: #1a202c;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 1rem;
+        }
+        #conteudo-renderizado h2 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2d3748;
+        }
+        #conteudo-renderizado h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin-top: 2rem;
+            color: #4a5568;
+        }
+        #conteudo-renderizado p {
+            text-align: justify;
+            text-indent: 2.5em;
+            margin-bottom: 1.25rem;
+        }
+        #conteudo-renderizado ul, #conteudo-renderizado ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+            list-style-type: disc;
+        }
+        #conteudo-renderizado blockquote {
+            border-left: 4px solid #cbd5e0;
+            padding-left: 1rem;
+            font-style: italic;
+            color: #718096;
+        }
 
-body{
-font-family:"Times New Roman",serif;
-line-height:1.8;
-}
-
-.abnt p{
-text-align:justify;
-text-indent:2em;
-margin-top:12px;
-}
-
-.abnt h1{
-text-align:center;
-margin-top:40px;
-font-size:28px;
-font-weight:bold;
-}
-
-.abnt h2{
-margin-top:30px;
-font-size:20px;
-font-weight:bold;
-}
-
-.abnt h3{
-margin-top:20px;
-font-weight:bold;
-}
-
-</style>
-
+        /* Ocultar elementos na impressão */
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white !important; }
+            .print-area {
+                width: 100% !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+                box-shadow: none !important;
+                border: none !important;
+            }
+        }
+    </style>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
 
-<div class="max-w-4xl mx-auto bg-white shadow-lg p-12 mt-10 mb-20 abnt">
+    <!-- Header / Navbar -->
+    <header class="no-print sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-blue-600 text-white p-2 rounded-lg shadow-blue-200 shadow-lg">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                </div>
+                <span class="font-extrabold tracking-tight text-xl hidden md:block">WIKI LEGISLATIVA</span>
+            </div>
 
-<div class="flex justify-between mb-10">
+            <div class="flex items-center gap-4">
+                <a href="https://github.com/goldenluke/pl-neuropsicologia-sus" class="text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub
+                </a>
+                <button onclick="window.print()" class="bg-slate-900 text-white px-4 py-2 rounded-lg text-sm font-bold shadow-lg hover:bg-slate-800 transition transform active:scale-95 flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+                    Gerar PDF
+                </button>
+            </div>
+        </div>
+    </header>
 
-<div class="text-sm text-gray-500">
-Projeto legislativo colaborativo
-</div>
+    <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
 
-<div class="space-x-3">
+        <!-- Sidebar Navigation -->
+        <aside class="no-print lg:col-span-3">
+            <div class="sticky top-24 space-y-6">
+                <div>
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Estrutura do Projeto</h3>
+                    <nav id="toc" class="flex flex-col gap-1 border-l-2 border-slate-200 ml-2"></nav>
+                </div>
 
-<button onclick="window.print()" class="bg-gray-800 text-white px-3 py-1 rounded">
-Imprimir / PDF
-</button>
+                <div class="p-4 bg-blue-50 rounded-xl border border-blue-100">
+                    <h4 class="text-sm font-bold text-blue-800 mb-1">Status</h4>
+                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                        <span class="w-2 h-2 mr-1.5 bg-blue-500 rounded-full animate-pulse"></span>
+                        Em Desenvolvimento
+                    </span>
+                    <p class="text-xs text-blue-600 mt-2">Contribuições via Pull Request são bem-vindas.</p>
+                </div>
+            </div>
+        </aside>
 
-<a href="https://github.com/goldenluke/pl-neuropsicologia-sus"
-class="bg-gray-200 px-3 py-1 rounded">
-GitHub
-</a>
+        <!-- Main Content Area -->
+        <main class="lg:col-span-9 space-y-12">
 
-</div>
+            <section class="print-area bg-white shadow-2xl shadow-slate-200 border border-slate-200 rounded-3xl p-8 md:p-20 overflow-hidden relative">
+                <!-- Capa Documento -->
+                <div class="text-center mb-20">
+                    <h4 class="text-blue-600 font-bold tracking-[0.2em] text-sm mb-4 uppercase">República Federativa do Brasil</h4>
+                    <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-6 leading-tight uppercase">Projeto de Lei</h1>
+                    <div class="w-24 h-1.5 bg-blue-600 mx-auto mb-8"></div>
+                    <h2 class="text-2xl md:text-3xl font-medium text-slate-700 max-w-2xl mx-auto font-legal leading-relaxed">
+                        Garantia de Acesso à Avaliação Neuropsicológica no Sistema Único de Saúde (SUS)
+                    </h2>
+                    <p class="text-slate-400 mt-8 text-sm italic font-sans">
+                        Versão consolidada para debate público e tramitação legislativa colaborativa.
+                    </p>
+                </div>
 
-</div>
+                <hr class="border-slate-100 mb-12">
 
-<h1>PROJETO DE LEI</h1>
+                <!-- Conteúdo Dinâmico -->
+                <div id="conteudo-renderizado" class="font-legal text-lg">
+                    <div class="flex justify-center items-center py-20">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+                    </div>
+                </div>
 
-<h1 class="text-xl mt-4">
-Garantia de Acesso à Avaliação Neuropsicológica no Sistema Único de Saúde
-</h1>
+                <footer class="mt-24 pt-8 border-t border-slate-100 text-center text-slate-400 text-xs">
+                    Documento gerado automaticamente a partir do repositório oficial. <br>
+                    Licença MIT © 2024 Comunidade de Saúde Mental e Direito.
+                </footer>
+            </section>
+        </main>
+    </div>
 
-<p class="text-center mt-6 text-gray-600">
-Versão consolidada do projeto legislativo colaborativo.
-</p>
+    <script>
+        const baseRepo = "https://raw.githubusercontent.com/goldenluke/pl-neuropsicologia-sus/main/";
 
-<hr class="my-10">
+        const arquivos = [
+            { path: "docs/exposicao-motivos.md", label: "Exposição de Motivos" },
+            { path: "docs/fundamentacao-teorica.md", label: "Fundamentação Teórica" },
+            { path: "docs/direito-comparado.md", label: "Direito Comparado" },
+            { path: "projeto-lei/artigo-1.md", label: "Artigo 1º — Disposições Gerais" },
+            { path: "projeto-lei/artigo-2.md", label: "Artigo 2º — Natureza Jurídica" },
+            { path: "projeto-lei/artigo-3.md", label: "Artigo 3º — Organização da Oferta" },
+            { path: "projeto-lei/artigo-4.md", label: "Artigo 4º — Regulamentação" },
+            { path: "projeto-lei/artigo-5.md", label: "Artigo 5º — LINDB e Gestão" },
+            { path: "projeto-lei/artigo-6.md", label: "Artigo 6º — Fiscalização" },
+            { path: "projeto-lei/artigo-7.md", label: "Artigo 7º — Interpretação Conforme" },
+            { path: "projeto-lei/artigo-8.md", label: "Artigo 8º — Disposições Finais" },
+            { path: "projeto-lei/artigo-9.md", label: "Artigo 9º — Custeio" },
+            { path: "projeto-lei/artigo-10.md", label: "Artigo 10 — Vigência" }
+        ];
 
-<h2>Sumário</h2>
+        async function carregar() {
+            let fullHtml = "";
+            let tocHtml = "";
 
-<div id="toc" class="text-sm mb-10"></div>
+            for (let file of arquivos) {
+                try {
+                    const resp = await fetch(baseRepo + file.path);
+                    if (!resp.ok) throw new Error("Falha ao carregar");
+                    const md = await resp.text();
+                    const html = marked.parse(md);
+                    const id = file.path.replace(/[\/\.]/g, "-");
 
-<hr class="my-10">
+                    tocHtml += `
+                        <a href="#${id}" class="pl-4 py-2 text-sm text-slate-500 hover:text-blue-600 hover:bg-white border-l-2 border-transparent hover:border-blue-600 transition-all font-medium">
+                            ${file.label}
+                        </a>
+                    `;
 
-<div id="conteudo"></div>
+                    fullHtml += `
+                        <article id="${id}" class="group relative mb-24 last:mb-0">
+                            <div class="no-print absolute -left-16 top-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <a href="https://github.com/goldenluke/pl-neuropsicologia-sus/edit/main/${file.path}"
+                                   class="bg-white border border-slate-200 p-2 rounded-full shadow-sm hover:text-blue-600 block"
+                                   title="Sugerir alteração no GitHub">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                                </a>
+                            </div>
+                            ${html}
+                        </article>
+                    `;
+                } catch (e) {
+                    console.error("Erro no arquivo:", file.path);
+                }
+            }
 
-</div>
+            document.getElementById("conteudo-renderizado").innerHTML = fullHtml;
+            document.getElementById("toc").innerHTML = tocHtml;
+        }
 
-<script>
-
-const baseRepo =
-"https://raw.githubusercontent.com/goldenluke/pl-neuropsicologia-sus/main/"
-
-const arquivos = [
-
-"docs/exposicao-motivos.md",
-"docs/fundamentacao-teorica.md",
-"docs/direito-comparado.md",
-
-"projeto-lei/artigo-1.md",
-"projeto-lei/artigo-2.md",
-"projeto-lei/artigo-3.md",
-"projeto-lei/artigo-4.md",
-"projeto-lei/artigo-5.md",
-"projeto-lei/artigo-6.md",
-"projeto-lei/artigo-7.md",
-"projeto-lei/artigo-8.md",
-"projeto-lei/artigo-9.md",
-"projeto-lei/artigo-10.md"
-
-]
-
-async function carregar(){
-
-let html=""
-let toc=""
-
-for(let file of arquivos){
-
-let resp = await fetch(baseRepo + file)
-
-let md = await resp.text()
-
-let convertido = marked.parse(md)
-
-let id = file.replace(/[\/\.]/g,"")
-
-toc += `<div><a href="#${id}" class="text-blue-600 underline">${file}</a></div>`
-
-html += `
-
-<section id="${id}" class="mb-16">
-
-<div class="text-right mb-2 text-xs">
-
-<a href="https://github.com/goldenluke/pl-neuropsicologia-sus/edit/main/${file}"
-class="text-blue-500 underline">
-Editar no GitHub
-</a>
-
-</div>
-
-${convertido}
-
-</section>
-
-`
-
-}
-
-document.getElementById("conteudo").innerHTML = html
-
-document.getElementById("toc").innerHTML = toc
-
-}
-
-carregar()
-
-</script>
+        carregar();
+    </script>
 
 </body>
-
 </html>

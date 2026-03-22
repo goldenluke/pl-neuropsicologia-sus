@@ -479,78 +479,29 @@ ARQUIVO: ./docs/exposicao-motivos.md
 
 # Exposição de Motivos
 
-A presente proposição legislativa tem por finalidade assegurar,
-no âmbito do Sistema Único de Saúde (SUS), o acesso à avaliação
-neuropsicológica quando clinicamente indicada.
+A presente proposição legislativa tem por finalidade assegurar, no âmbito do Sistema Único de Saúde (SUS), o acesso à avaliação neuropsicológica quando clinicamente indicada, reconhecendo sua natureza diagnóstica e funcional e estabelecendo bases normativas claras para sua oferta, organização e regulamentação administrativa.
 
-A avaliação neuropsicológica constitui instrumento diagnóstico
-amplamente reconhecido na prática clínica contemporânea,
-especialmente nas áreas de neurologia, psiquiatria,
-reabilitação e saúde mental.
+A iniciativa legislativa decorre da constatação de uma lacuna normativa persistente no sistema de saúde pública brasileiro. Embora a avaliação neuropsicológica seja amplamente reconhecida pela comunidade científica e incorporada à prática clínica contemporânea como instrumento essencial em múltiplos contextos assistenciais — notadamente nas áreas da neurologia, psiquiatria, reabilitação e saúde mental — sua oferta no SUS permanece irregular, fragmentada e frequentemente inexistente, não por vedação legal, mas por ausência de densificação normativa infralegal.
 
-Apesar desse reconhecimento científico consolidado, sua oferta
-no SUS permanece irregular e frequentemente inexistente,
-não por vedação legal, mas por ausência de densificação
-normativa infralegal.
+Tal lacuna produz efeitos concretos e previsíveis, como atrasos diagnósticos prolongados, intervenções terapêuticas inadequadas, agravamento de quadros clínicos potencialmente tratáveis, aumento do sofrimento psíquico e funcional dos usuários e crescimento da judicialização individual fragmentada, com impacto negativo tanto para os indivíduos quanto para a racionalidade do sistema de saúde como um todo.
 
-Essa lacuna normativa gera consequências práticas relevantes,
-como atrasos diagnósticos prolongados, intervenções
-terapêuticas inadequadas e aumento da judicialização
-em saúde.
-
-O projeto busca reconhecer normativamente a avaliação
-neuropsicológica como procedimento diagnóstico essencial,
-integrando-a explicitamente ao conjunto de serviços que
-materializam o princípio da integralidade da assistência.
+A proposição encontra fundamento direto nos arts. 6º e 196 da Constituição Federal, que consagram o direito à saúde como direito social fundamental e dever do Estado, bem como nos arts. 20 a 22 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), que impõem às decisões estatais — inclusive legislativas — o dever de considerar as consequências práticas, as dificuldades reais do gestor e a efetividade concreta das normas jurídicas.
 
 
 ================================================================================
 ARQUIVO: ./docs/fundamentacao-teorica.md
 ================================================================================
 
-# Fundamentação Teórica
+# Fundamentação Teórica Anexa
 
-## A LINDB e o consequencialismo no direito público
+## 1. A LINDB e a virada consequencialista
+As alterações introduzidas na LINDB pela Lei nº 13.655/2018 representam marco normativo relevante na superação de uma concepção meramente formalista das decisões estatais. Os arts. 20 a 22 impõem que atos administrativos, decisões judiciais e políticas públicas considerem explicitamente as consequências práticas de sua adoção.
 
-As alterações introduzidas na Lei de Introdução às Normas do
-Direito Brasileiro pela Lei nº 13.655/2018 impõem que decisões
-administrativas e legislativas considerem explicitamente suas
-consequências práticas.
+## 2. Validade, Justiça e Adequação: Gustav Radbruch
+A teoria tridimensional do direito estabelece que a validade jurídica resulta do equilíbrio entre: **segurança jurídica**, **justiça material** e **adequação social**. A situação atual da avaliação neuropsicológica no SUS evidencia um desequilíbrio estrutural que sacrifica a justiça do caso concreto.
 
-No campo da saúde pública, essa orientação exige que omissões
-normativas que produzam efeitos negativos sobre direitos
-fundamentais sejam avaliadas criticamente.
-
-## Teoria de Gustav Radbruch
-
-A teoria tridimensional do direito estabelece que a validade
-jurídica depende do equilíbrio entre:
-
-- segurança jurídica
-- justiça material
-- adequação social
-
-A ausência de oferta regular da avaliação neuropsicológica
-no SUS evidencia desequilíbrio entre essas dimensões.
-
-## Normativismo e hierarquia constitucional
-
-Mesmo sob uma perspectiva estritamente normativista,
-inspirada na obra de Hans Kelsen, a omissão administrativa
-não pode prevalecer sobre a Constituição Federal.
-
-O direito à saúde possui aplicação imediata e não pode ser
-esvaziado por ausência de regulamentação infralegal.
-
-## Constitucionalização simbólica
-
-A teoria da constitucionalização simbólica de Marcelo Neves
-explica situações em que direitos são formalmente reconhecidos,
-mas carecem de mecanismos institucionais que garantam sua
-efetividade prática.
-
-A ausência de acesso à avaliação neuropsicológica constitui
-exemplo desse fenômeno.
+## 3. Constitucionalização Simbólica: Marcelo Neves
+A reiterada negativa de acesso configura típico caso de inefetividade estrutural do direito à saúde. O direito é formalmente reconhecido, mas carece dos meios institucionais necessários à sua fruição.
 
 
 ================================================================================
@@ -559,27 +510,14 @@ ARQUIVO: ./docs/direito-comparado.md
 
 # Direito Comparado
 
-A experiência internacional demonstra que a avaliação
-neuropsicológica é reconhecida como ferramenta diagnóstica
-importante em diversos sistemas públicos de saúde.
+## Reino Unido – NHS
+O NHS incorpora a neuropsicologia clínica como parte integrante dos serviços especializados. Avaliações são realizadas em hospitais públicos vinculadas a serviços de neurologia e reabilitação.
 
-## Reino Unido
+## Canadá – Sistemas Provinciais
+O Estado reconhece a avaliação neuropsicológica como procedimento necessário, sobretudo quando integrada a serviços públicos de diagnóstico e reabilitação.
 
-O National Health Service (NHS) oferece avaliação
-neuropsicológica em hospitais públicos e centros
-de neurociência.
-
-## Canadá
-
-Nos sistemas provinciais de saúde, avaliações
-neuropsicológicas são realizadas em hospitais
-universitários e centros de reabilitação.
-
-## Austrália
-
-Programas públicos vinculados ao Medicare subsidiam
-serviços especializados de avaliação cognitiva,
-especialmente no contexto da saúde mental.
+## Austrália – Medicare
+O "Better Access Scheme" permite o custeio público de serviços psicológicos especializados mediante encaminhamento clínico.
 
 
 ================================================================================
@@ -12316,21 +12254,8 @@ propostas de emenda e debate técnico sobre o artigo.
 ARQUIVO: ./projeto-lei/artigo-4.md
 ================================================================================
 
-# Artigo 4º
-
-Texto do artigo 4 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 4º — Regulamentação e Protocolos
+O Poder Executivo elaborará protocolos clínicos baseados na melhor evidência científica disponível, não podendo restringir o acesso por critérios meramente administrativos.
 
 
 ================================================================================
@@ -12358,84 +12283,32 @@ propostas de emenda e debate técnico sobre o artigo.
 ARQUIVO: ./projeto-lei/artigo-10.md
 ================================================================================
 
-# Artigo 10º
-
-Texto do artigo 10 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 10 — Vigência
+Esta Lei entra em vigor na data de sua publicação.
 
 
 ================================================================================
 ARQUIVO: ./projeto-lei/artigo-2.md
 ================================================================================
 
-# Artigo 2º
-
-Texto do artigo 2 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 2º — Natureza Jurídica
+A avaliação neuropsicológica possui natureza eminentemente diagnóstica e funcional, equiparando-se aos exames de média e alta complexidade do SUS para fins de acesso e custeio.
 
 
 ================================================================================
 ARQUIVO: ./projeto-lei/artigo-5.md
 ================================================================================
 
-# Artigo 5º
-
-Texto do artigo 5 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 5º — Dificuldades Reais do Gestor
+A implementação observará os arts. 20 a 22 da LINDB, considerando as dificuldades reais do gestor sem, contudo, esvaziar o núcleo essencial do direito à saúde.
 
 
 ================================================================================
 ARQUIVO: ./projeto-lei/artigo-1.md
 ================================================================================
 
-# Artigo 1º
-
-Texto do artigo 1 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 1º — Disposições Gerais
+Fica assegurado, no âmbito do SUS, o acesso à avaliação neuropsicológica, sempre que clinicamente indicada, mediante avaliação técnica fundamentada de profissional de saúde legalmente habilitado.
 
 
 ================================================================================
@@ -12463,18 +12336,5 @@ propostas de emenda e debate técnico sobre o artigo.
 ARQUIVO: ./projeto-lei/artigo-3.md
 ================================================================================
 
-# Artigo 3º
-
-Texto do artigo 3 do projeto de lei que dispõe sobre
-a garantia de acesso à avaliação neuropsicológica no
-âmbito do Sistema Único de Saúde (SUS).
-
-## Objetivo
-
-Definir diretrizes normativas para assegurar acesso
-ao procedimento diagnóstico no SUS.
-
-## Discussão
-
-Espaço destinado a contribuições da comunidade,
-propostas de emenda e debate técnico sobre o artigo.
+# Artigo 3º — Organização da Oferta
+A oferta será garantida de forma articulada na rede pública própria ou, de forma complementar, na rede privada conveniada quando a pública for insuficiente.
